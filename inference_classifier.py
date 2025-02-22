@@ -4,7 +4,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
-model_dict = pickle.load(open('./model.p', 'rb'))
+model_dict = pickle.load(open('./model_KNN.p', 'rb'))
 model = model_dict['model']
 
 cap = cv2.VideoCapture(0)
@@ -15,7 +15,9 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
-labels_dict = {0: '0', 1: '1', 2: '2',3: '3',4: '4',5: '5'}
+labels_dict = {
+    0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9'
+}
 while True:
 
     data_aux = []
