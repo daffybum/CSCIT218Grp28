@@ -2,7 +2,7 @@ this repository is for CSCIT218 group 28 on our hand gesture recognition project
 project is done by following this youtuber: https://www.youtube.com/watch?v=MJCSjXepaAM
 
 changes made:
-<br>  -using KNN instead of random forest classifier
-  <br>-added in data set from https://www.kaggle.com/datasets/ahmedkhanak1995/sign-language-gesture-images-dataset?resource=download as well as our own for number 0 to 5
-  <br>-dataCleaning.py to remove and filter out noises
+<br>  -using KNN and mlp instead of random forest classifier
+  <br>-added in our own data set of 10k x6 images from numbers 0 to 9
+  <br>-edited create_dataset.py to remove and filter out noises
   
