@@ -2,7 +2,7 @@ this repository is for CSCIT218 group 28 on our hand gesture recognition project
 project is done by following this youtuber: https://www.youtube.com/watch?v=MJCSjXepaAM
 
 here is our youtube link that explains the code:<href= 'https://www.youtube.com/watch?v=MdCx4LBX3GY'>link </href>
-
+<br> our presentationslides https://docs.google.com/presentation/d/19lJlCam_9Xizn9bWKvpbfBHg9IpUuJNg_Ds6qjBBlF8/edit?usp=sharing
 changes made:
 <br>  -using KNN and mlp instead of random forest classifier
   <br>-added in our own data set of 10k x6 images from numbers 0 to 9
